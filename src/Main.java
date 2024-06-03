@@ -27,7 +27,7 @@ public class Main {
             throw new WrongPasswordException("В пароле недопустимые символы.");
         }
         if (!password.equals(confirmPassword)){
-            throw new WrongPasswordException("Пароли не совпадают.");
+            throw new WrongPasswordException("Пароли не совпадают!");
         }
     }
 }
